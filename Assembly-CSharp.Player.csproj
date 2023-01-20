@@ -56,58 +56,13 @@
     <Analyzer Include="D:\MakeGame\VisualStudio\VisualStudio_IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\InitializePlaymakerAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Advertisements.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowRewardedVideo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdvertiserSettings.cs" />
     <Compile Include="Assets\Scripts\enemCtr.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsInterstitialAvailable.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToNo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomUnityAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\FileLoader.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomIronSource.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsRewardedVideoAvailable.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowInterstitial.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\RemoveAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomChartboost.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowBanner.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\HideBanner.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsRewardedVideoAvailable.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Example\Implementation.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToNo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToYes.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomMoPub.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomHeyzap.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\MediationSettings.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdColony.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\ScreenWriter.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\InitializeGleyAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\UserConsentWasSet.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomFacebook.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAppLovin.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowInterstitial.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsInterstitialAvailable.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdTypeSettings.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\ICustomAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\BoltSupport\MobileAdsBoltSupport.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowRewardedVideo.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\AdSettings.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdmob.cs" />
     <Compile Include="Assets\Scripts\aiplayer.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomVungle.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\UserConsentWasSet.cs" />
     <Compile Include="Assets\Scripts\UiManager.cs" />
     <Compile Include="Assets\Scripts\camfollow.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Example\TestAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\UserSettings.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\HideBanner.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\Constants.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToYes.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\RemoveAds.cs" />
-    <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowBanner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -123,8 +78,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\GleyPlugins\Ads\AdOrderFile\AdOrder.txt" />
-    <None Include="Assets\GleyPlugins\Ads\Scripts\Version.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -705,26 +658,6 @@
       <Project>{5889E362-B7A1-9001-9895-E9982A05CB49}</Project>
       <Name>Assembly-CSharp-firstpass.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{2487AD30-54DC-F487-EDFC-47FC4FFDC3D4}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{06B85780-D781-62B8-B338-47FEFB3B3925}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{4075ADC0-0046-397B-619F-6C9E1F8C5A67}</Project>
-      <Name>UnityEngine.Advertisements.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{7BA3FE65-231A-EFE1-E4F9-E4D0B299593B}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{DFBAD3BA-F866-A149-BF77-31095EBC9D13}</Project>
-      <Name>Unity.Services.Core.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{CFB01D3E-5D3A-8128-F608-2EC9736BF3D0}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
@@ -733,13 +666,21 @@
       <Project>{E6CCD13C-B7C3-4AD0-D8FA-43C488F34796}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="GoogleMobileAds.Player.csproj">
-      <Project>{794DDA07-30C5-2A97-1C62-27A25D2C388C}</Project>
-      <Name>GoogleMobileAds.Player</Name>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{2487AD30-54DC-F487-EDFC-47FC4FFDC3D4}</Project>
+      <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Monetization.Player.csproj">
-      <Project>{4D6A9C11-3695-6C73-A7DD-9CADD856686A}</Project>
-      <Name>UnityEngine.Monetization.Player</Name>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{06B85780-D781-62B8-B338-47FEFB3B3925}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{7BA3FE65-231A-EFE1-E4F9-E4D0B299593B}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{DFBAD3BA-F866-A149-BF77-31095EBC9D13}</Project>
+      <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

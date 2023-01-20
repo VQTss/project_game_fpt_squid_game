@@ -4344,6 +4344,7 @@ MonoBehaviour:
   thisRigidbody: {fileID: 919132148175504135}
   SpaceHoldNumber: 0
   LimitMovement: 50
+  moveSpeed: 200
   maxX: 27
   maxZ: 70
   GmRun: 0

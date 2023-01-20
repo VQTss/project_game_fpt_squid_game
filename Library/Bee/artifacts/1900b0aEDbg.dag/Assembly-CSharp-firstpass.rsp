@@ -120,7 +120,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/MakeGame/Project/project_game_fpt_squid_game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"D:/MakeGame/Project/TestHis/project_game_fpt_squid_game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -326,8 +326,6 @@
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"D:/MakeGame/Unity/UnityEditor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"Library/Bee/artifacts/1900b0aEDbg.dag/GoogleMobileAds.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aEDbg.dag/GoogleMobileAds.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -340,9 +338,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
--r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.Advertisements.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.Advertisements.ref.dll"
--r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.Monetization.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Standard Assets/CNControls/Examples/Scenes/2D/Scripts/Camera2DFollow.cs"
 "Assets/Standard Assets/CNControls/Examples/Scenes/2D/Scripts/Platformer2DUserControl.cs"

@@ -80,9 +80,6 @@
     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\2D\Scripts\PlatformerCharacter2D.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\MakeGame\Unity\UnityEditor\2021.3.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
@@ -652,26 +649,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{2487AD30-54DC-F487-EDFC-47FC4FFDC3D4}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{06B85780-D781-62B8-B338-47FEFB3B3925}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{4075ADC0-0046-397B-619F-6C9E1F8C5A67}</Project>
-      <Name>UnityEngine.Advertisements.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{7BA3FE65-231A-EFE1-E4F9-E4D0B299593B}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{DFBAD3BA-F866-A149-BF77-31095EBC9D13}</Project>
-      <Name>Unity.Services.Core.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{CFB01D3E-5D3A-8128-F608-2EC9736BF3D0}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
@@ -680,13 +657,21 @@
       <Project>{E6CCD13C-B7C3-4AD0-D8FA-43C488F34796}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="GoogleMobileAds.Player.csproj">
-      <Project>{794DDA07-30C5-2A97-1C62-27A25D2C388C}</Project>
-      <Name>GoogleMobileAds.Player</Name>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{2487AD30-54DC-F487-EDFC-47FC4FFDC3D4}</Project>
+      <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Monetization.Player.csproj">
-      <Project>{4D6A9C11-3695-6C73-A7DD-9CADD856686A}</Project>
-      <Name>UnityEngine.Monetization.Player</Name>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{06B85780-D781-62B8-B338-47FEFB3B3925}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{7BA3FE65-231A-EFE1-E4F9-E4D0B299593B}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{DFBAD3BA-F866-A149-BF77-31095EBC9D13}</Project>
+      <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

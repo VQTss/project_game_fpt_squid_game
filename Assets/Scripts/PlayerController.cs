@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
 	private float inputSpaces;
     public float SpaceHoldNumber;
 	public float LimitMovement;
-    private float moveSpeed;
+    public float moveSpeed;
 	public float maxX;
 	public float maxZ;
 	bool move;
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour {
 		// Store some values
 		Application.targetFrameRate = 60;
 		canMove = true;
-        SpaceHoldNumber = 0f;
+        SpaceHoldNumber = 0.1f;
 	}
 	
 	// Update is called once per frame
@@ -47,19 +47,15 @@ public class PlayerController : MonoBehaviour {
 				// Move Player
 				move = true;
 				GetComponent<Animator>().Play("run");
-				transform.forward = new Vector3(0, 0, SpaceHoldNumber * Time.deltaTime);
 				GetComponent<Animator>().speed = 1;
 			}
 			else
 			{
 				move = false;
 				GetComponent<Animator>().speed = 0;
-			}
+                inputSpaces = 0f;
+            }
 		}
-		else
-		{
-            inputSpaces = 0f;
-        }
 
 		if(die && !chwya)
         {
@@ -68,7 +64,6 @@ public class PlayerController : MonoBehaviour {
 				// Move Player
 				move = true;
 				GetComponent<Animator>().Play("run");
-				transform.forward = new Vector3(0, 0, SpaceHoldNumber * Time.deltaTime);
 				GetComponent<Animator>().speed = 1;
 			}
 			else
@@ -126,8 +121,8 @@ public class PlayerController : MonoBehaviour {
 	{
 		Vector3 movement = new Vector3(0, 0, SpaceHoldNumber * Time.deltaTime);
 		movement *= moveSpeed * Time.deltaTime;
-
 		thisRigidbody.velocity = movement;
+		Debug.Log(movement);
 	}
 
 	IEnumerator dieplayer()
@@ -146,7 +141,6 @@ public class PlayerController : MonoBehaviour {
 		GetComponent<Animator>().Play("die" + bb.ToString());
 		GetComponent<Animator>().speed = 1;
 		yield return new WaitForSeconds(5f);
-		Advertisements.Instance.ShowInterstitial();
 		FindObjectOfType<UiManager>().losepanel.SetActive(true);
 	}
 
@@ -169,7 +163,6 @@ public class PlayerController : MonoBehaviour {
 		GetComponent<Animator>().speed = 1;
 		SoundManager.instance.Play("win");
 		yield return new WaitForSeconds(7f);
-		Advertisements.Instance.ShowInterstitial();
 		FindObjectOfType<UiManager>().winpanel.SetActive(true);
 
     }

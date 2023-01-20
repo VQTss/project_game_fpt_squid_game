@@ -27,8 +27,6 @@ public class UiManager : MonoBehaviour
     void Start()
     {
         SoundManager.instance.Play("start");
-        Advertisements.Instance.Initialize();
-        Advertisements.Instance.ShowBanner(BannerPosition.BOTTOM);
         //LevelText.text = "Level " + (gamemanager.instance.getLevel() + 1);
     }
 
