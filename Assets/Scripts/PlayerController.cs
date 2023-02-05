@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour {
 	public float maxZ;
 	bool move;
 	public static bool canMove;
-	public bool GmRun,die,chwya,win;
+	public bool GmRun,die,chwya,win, getShot;
 	
 
 	//[Header(" Rotation Control ")]	
@@ -28,11 +28,22 @@ public class PlayerController : MonoBehaviour {
 		Application.targetFrameRate = 60;
 		canMove = true;
         SpaceHoldNumber = 0.1f;
+		getShot = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         SpaceHoldNumber = Mathf.Clamp(inputSpaces, 0, LimitMovement);
+
+		if (die)
+		{
+			if (!getShot)
+			{
+                StartCoroutine(dieplayer());
+				getShot = true;
+            }
+
+        }
 
 		if(GmRun && !die && !win)
         {
@@ -122,12 +133,10 @@ public class PlayerController : MonoBehaviour {
 		Vector3 movement = new Vector3(0, 0, SpaceHoldNumber * Time.deltaTime);
 		movement *= moveSpeed * Time.deltaTime;
 		thisRigidbody.velocity = movement;
-		Debug.Log(movement);
 	}
 
-	IEnumerator dieplayer()
+	public IEnumerator dieplayer()
     {
-
 		yield return new WaitForSeconds(0.5f);
 		chwya = true;
 		GetComponent<BoxCollider>().isTrigger = true;

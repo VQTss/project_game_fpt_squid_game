@@ -5,7 +5,6 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
     public Sounds[] sounds;
-    bool adIsplay;
     public float timer;
     public bool still_pitch;
     private void Awake()
@@ -37,15 +36,15 @@ public class SoundManager : MonoBehaviour
         if (snd == null)
             return;
 
-        if(still_pitch && name == "collect_cube")
+        if (still_pitch && name == "collect_cube")
         {
             timer = 0f;
             snd.audio.pitch += .01f;
         }
-            
+
         else if (!still_pitch && name == "collect_cube")
         {
-            snd.audio.pitch =1f;
+            snd.audio.pitch = 1f;
             still_pitch = true;
         }
         snd.audio.Play();
@@ -61,9 +60,11 @@ public class SoundManager : MonoBehaviour
         snd.audio.Stop();
     }
 
-    private void Update()
+    
+
+    public void Update()
     {
-        if(timer <= 1f && still_pitch)
+        if (timer <= 1f && still_pitch)
         {
             timer += Time.deltaTime;
         }
@@ -72,10 +73,21 @@ public class SoundManager : MonoBehaviour
             timer = 0f;
             still_pitch = false;
         }
+
+        if (Time.timeScale == 0)
+        {
+            Sounds snd = Array.Find(sounds, s => s.name == "enem");
+            if (snd == null)
+                return;
+
+
+            snd.audio.Pause();
+        }
+
     }
 
 
-    public void sPlay(string name ,float pitch)
+    public void sPlay(string name, float pitch)
     {
         Sounds snd = Array.Find(sounds, s => s.name == name);
         if (snd == null)

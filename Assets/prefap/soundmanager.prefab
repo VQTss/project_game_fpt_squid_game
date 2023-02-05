@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7270768302252123903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7270768302252123902}
+  - component: {fileID: 7270768302252123841}
+  m_Layer: 0
+  m_Name: soundmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7270768302252123902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270768302252123903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 254.53497, y: 452.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7270768302252123841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270768302252123903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a038e859bfce69641a0e5108886f6d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: start
+    volume: 1
+    clip: {fileID: 8300000, guid: 2b9e46d282c70d74c99e5408f0b9b6cd, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: click
+    volume: 1
+    clip: {fileID: 8300000, guid: 31e909415f089c84c9d457d3c69f983a, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: enem
+    volume: 1
+    clip: {fileID: 8300000, guid: f99ff2e7c365fda4ea5deba7db2e9b4d, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: search
+    volume: 0.5
+    clip: {fileID: 8300000, guid: f80f4ae2bf5de4d4cb53643081eae412, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: fire1
+    volume: 1
+    clip: {fileID: 8300000, guid: bfb1f65864bc0c5409b909c2d90705e9, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: fire2
+    volume: 1
+    clip: {fileID: 8300000, guid: 24f57133c704794438e33a7fb56db0e2, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: hit1
+    volume: 1
+    clip: {fileID: 8300000, guid: f03eef3185c97fa4682fb46b73f261f9, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: hit2
+    volume: 1
+    clip: {fileID: 8300000, guid: f03eef3185c97fa4682fb46b73f261f9, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: win
+    volume: 1
+    clip: {fileID: 8300000, guid: 48a2396438be1f641889de06bd48e701, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: lose
+    volume: 1
+    clip: {fileID: 8300000, guid: 58bf71eb79c94d14589d4108b7458a78, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: candy
+    volume: 1
+    clip: {fileID: 8300000, guid: a286114ff8d3a3d4893200f10f5eb195, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: glass
+    volume: 1
+    clip: {fileID: 8300000, guid: 414341a28e02b9742a74c6169f6454fb, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: correct
+    volume: 1
+    clip: {fileID: 8300000, guid: a54cf745b063f5e41a222ac12dff23aa, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  - name: fail
+    volume: 0.4
+    clip: {fileID: 8300000, guid: e17d33bbc494a914c9022e043b56a806, type: 3}
+    pitch: 1
+    audio: {fileID: 0}
+  timer: 0
+  still_pitch: 0

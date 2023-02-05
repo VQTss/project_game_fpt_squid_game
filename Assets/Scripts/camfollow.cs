@@ -3,10 +3,9 @@ using UnityEngine;
 
 public class camfollow : MonoBehaviour
 {
-    GameObject playercContainer;
+    public GameObject playercContainer;
     Vector3 offset;
     public float speed;
-    public Transform winfollow;
     PlayerController playercont;
     // Start is called before the first frame update
     void Start()

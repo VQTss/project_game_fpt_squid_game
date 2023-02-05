@@ -34,9 +34,12 @@ public class UiManager : MonoBehaviour
     {
         if(startcount)
         {
-            t -= Time.deltaTime;
-            int a = (int)t;
-            timershow.text = a.ToString();
+            if (t > 0)
+            {
+                t -= Time.deltaTime;
+                int a = (int)t;
+                timershow.text = a.ToString();
+            }
         }
     }
 
@@ -75,5 +78,6 @@ public class UiManager : MonoBehaviour
         startpanel.SetActive(false);
         gameplaypanel.SetActive(true);
         startcount = true;
+        Time.timeScale = 1;
     }
 }

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - win
+  - QuizPanel
+  - QuestionQuiz
+  - Canvas
   layers:
   - Default
   - TransparentFX
