@@ -80,4 +80,10 @@ public class UiManager : MonoBehaviour
         startcount = true;
         Time.timeScale = 1;
     }
+
+    public void btn_next()
+    {
+        
+        SceneManager.LoadScene(1);
+    }
 }

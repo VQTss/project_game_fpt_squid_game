@@ -2134,7 +2134,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &380214943
 GameObject:
@@ -2595,7 +2595,7 @@ RectTransform:
   - {fileID: 345351932}
   - {fileID: 58574102}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2620,7 +2620,7 @@ MonoBehaviour:
   winpanel: {fileID: 1239096778}
   timershow: {fileID: 0}
   tm: {fileID: 595132466}
-  t: 3
+  t: 60
   startcount: 1
   glassBridge: 1
 --- !u!1 &522935460 stripped
@@ -3558,7 +3558,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &715014019
 GameObject:
@@ -4716,7 +4716,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 26.62, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -6108,7 +6108,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1136971347
 MonoBehaviour:
@@ -6124,6 +6124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   YouWin: 0
   YouLose: 0
+  LoadScene: {fileID: 508216208}
 --- !u!1 &1142767890
 GameObject:
   m_ObjectHideFlags: 0
@@ -10478,7 +10479,7 @@ Transform:
   - {fileID: 1688466841}
   - {fileID: 1224894842}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652430621113
 Transform:
@@ -10496,7 +10497,7 @@ Transform:
   - {fileID: 5900859311767274577}
   - {fileID: 1491248583}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638300433142567456
 GameObject:
@@ -10897,7 +10898,7 @@ PrefabInstance:
     - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
         type: 3}
       propertyPath: QnA.Array.size
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
         type: 3}
@@ -10929,6 +10930,116 @@ PrefabInstance:
       propertyPath: options.Array.data[4]
       value: 
       objectReference: {fileID: 1991503757}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[4].Question
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Question
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Question
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Question
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].CorrectAnswer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[0]
+      value: Agdnskaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[1]
+      value: About timike
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[2]
+      value: Yes, i know
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[5].Answers.Array.data[3]
+      value: Helicopter
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[0]
+      value: Agdnskaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[1]
+      value: About timike
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[2]
+      value: Yes, i know
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[6].Answers.Array.data[3]
+      value: Helicopter
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[0]
+      value: Agdnskaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[1]
+      value: About timike
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[2]
+      value: Yes, i know
+      objectReference: {fileID: 0}
+    - target: {fileID: 945557475968827228, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
+        type: 3}
+      propertyPath: QnA.Array.data[7].Answers.Array.data[3]
+      value: Helicopter
+      objectReference: {fileID: 0}
     - target: {fileID: 945557475968827229, guid: 7bdd7a95b5a2eeb4284f78c06f3fdc80,
         type: 3}
       propertyPath: m_Name

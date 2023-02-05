@@ -7,6 +7,15 @@ public class GlassGameOVer : MonoBehaviour
 {
     public bool YouWin = false;
     public bool YouLose = false;
+    public LoadScene LoadScene;
+
+    private void Update()
+    {
+        if (LoadScene.t < 0)
+        {
+            YouLose = true;
+        }
+    }
 
     private void OnCollisionEnter(Collision collision)
     {

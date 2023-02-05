@@ -18,7 +18,7 @@ public class QuizManager : MonoBehaviour
 
     public PlayerController playerController;
     public GlassGameOVer GlassGameOVer;
-
+    public GameWin gameWin;
 
     public void Start()
     {
@@ -27,19 +27,24 @@ public class QuizManager : MonoBehaviour
             GameObject nice = GameObject.FindGameObjectWithTag("Player");
             playerController = nice.GetComponent<PlayerController>();
             GlassGameOVer = null;
+            gameWin = null;
         }
+
         if (Glass)
         {
             GlassGameOVer = FindObjectOfType<GlassGameOVer>();
-        }
-        if (Dalgona || Glass)
-        {
-            playerController = null; 
+            gameWin = null;
+            playerController = null;
         }
 
+        if (Dalgona)
+        {
+            gameWin = FindObjectOfType<GameWin>();
+            GlassGameOVer = null;
+            playerController = null;
+        }
 
         generateQuestion();
-        
     }
 
 
@@ -56,6 +61,10 @@ public class QuizManager : MonoBehaviour
         if (Glass)
         {
             GlassGameOVer.YouLose = true;
+        }
+        if (Dalgona)
+        {
+            gameWin.YouLose = true;
         }
     }
 
